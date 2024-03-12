@@ -1,0 +1,51 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+  background-image: url("URL_DA_IMAGEM");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h2 {
+  text-align: center;
+  color: #ff0000;
+}
+
+form {
+  width: 300px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+input[type="number"],
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: #555;
+  color: #fff;
+}
+
+input[type="button"] {
+  background-color: #ff0000;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+input[type="button"]:hover {
+  opacity: 0.8;
+}
+
+#result {
+  color: #ff0000;
+  font-size: 20px;
+  text-align: center;
+}

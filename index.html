@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Exercício Form</title>
+  </head>
+  <body>
+    <h2>Calculadora de Média em JavaScript</h2>
+
+    <form id="myForm">
+      Nome: <input type="text" id="nome" name="nome" required /><br />
+      Nota 1: <input type="number" id="nota1" name="nota1" disabled /><br />
+      Nota 2: <input type="number" id="nota2" name="nota2" disabled /><br />
+      Nota 3: <input type="number" id="nota3" name="nota3" disabled /><br />
+      <input
+        type="button"
+        value="Calcular Média"
+        onclick="calculate()"
+        disabled
+      />
+    </form>
+
+    <p id="result"></p>
+    <script src="js.js"></script>
+  </body>
+</html>
